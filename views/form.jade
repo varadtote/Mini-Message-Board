@@ -1,0 +1,14 @@
+extends layout
+
+block content
+    .wrapper
+      h1 Message Input Form
+      form(method='POST' action='/new')
+        .formWrapper
+          div
+            label(for='messageUser') Your Good Name
+            input#name(name='messageUser' type='text' placeholder='Mr. President')
+          .msgInput
+            label(for='message') Message
+            textarea(name='messageText' id='unique Message' cols='30' rows='10' placeholder='Save The Ryan')
+          button.btn(type='submit') Add Message

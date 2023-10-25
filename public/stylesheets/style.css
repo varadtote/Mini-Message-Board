@@ -1,0 +1,30 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  color: green;
+}
+
+.messageCard {
+  padding: 0.5rem;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  margin-block: 8px;
+  border-radius: 15px;
+  height: max-content;
+}
+
+.dateText {
+  color: gray;
+}
